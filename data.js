@@ -10,7 +10,7 @@ export const data = {
       app_logo:
         "https://telexbot.samayo.com.ng/telex2telegram-alert/v1/assets/misc/alert.png",
       app_name: "Jenkins Build Notifier",
-      app_url: "http://3.94.101.214:8080/",
+      app_url: "http://3.94.101.214:8080",
       background_color: "##fff",
     },
     integration_category: "Monitoring & Logging",
@@ -38,6 +38,6 @@ export const data = {
         default: "#-1234567890",
       },
     ],
-    target_url: "http://3.94.101.214:8080/alert/v1/api/index",
+    target_url: "http://3.94.101.214:8080/jenkins-webhook",
   },
 };
